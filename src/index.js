@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "react-bootstrap/dist/react-bootstrap.min.js";
-import { ToDoApp } from './components/useReducer/ToDoApp';
+import { MainScreen } from './components/useContext/MainApp';
 // import { HooksApp } from './HooksApp';
 // import CounterApp from './components/useState/CounterApp';
 // import CounterWithCustomHook from './components/useState/CounterWithCustomHook';
@@ -15,10 +15,11 @@ import { ToDoApp } from './components/useReducer/ToDoApp';
 // import { MemoHook } from './components/Memos/MemoHook';
 // import { CallbackHook } from './components/Memos/CallbackHook';
 // import { Padre } from './components/tarea-memo/Padre';
+// import { ToDoApp } from './components/useReducer/ToDoApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ToDoApp />
+    <MainScreen />
   </React.StrictMode>,
   document.getElementById('root')
 );
